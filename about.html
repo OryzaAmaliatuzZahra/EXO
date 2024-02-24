@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EXO</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles/about.css" />
+  </head>
+  <body>
+    <!--header-->
+    <header>
+      <nav
+        class="navbar fixed-top navbar-expand-md"
+        style="background-color: #f1f3ff"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand font-exo" href="home.html">EXO</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5
+                class="offcanvas-title"
+                id="offcanvasNavbarLabel"
+                style="padding-left: 32px"
+              >
+                EXO
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    href="home.html"
+                    aria-current="page"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    href="about.html"
+                    aria-current="page"
+                    >About</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    href="member.html"
+                    aria-current="page"
+                    >Member</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    href="unit.html"
+                    aria-current="page"
+                    >Unit</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--end header-->
+
+    <!-- about section -->
+    <section id="about-section">
+      <div class="container-fluid about">
+        <div class="row mt-4">
+          <div class="col-lg-4 col-md-5 col-sm-6 pb-3">
+            <div class="card card-about" style="width: 20rem">
+              <img src="assets/images/exo-1.jpg" width="100%" />
+              <div class="card-body">
+                <p class="card-text text-about">
+                  Exo (Korean: 엑소, often written as EXO) is a South
+                  Korean-Chinese male vocal group based in Seoul. The group
+                  consists of nine members: Suho, Baekhyun, Chanyeol, D.O., Kai,
+                  Sehun, Xiumin, Lay, and Chen. The group was formed by SM
+                  Entertainment in 2011 and debuted in 2012.
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-primary btn-about"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  We Are Exo
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="exampleModal"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div
+                    class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-dialog modal-xl"
+                  >
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">
+                          EXO
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <p class="pe-2 text-about">
+                          Exo (Korean: 엑소, often written as EXO) is a South
+                          Korean-Chinese male vocal group based in Seoul. The
+                          group consists of nine members: Suho, Baekhyun,
+                          Chanyeol, D.O., Kai, Sehun, Xiumin, Lay, and Chen. The
+                          group was formed by SM Entertainment in 2011 and
+                          debuted in 2012. Their music incorporates genres such
+                          as hip hop, contemporary R&B, and also electronic
+                          dance music genres such as house, trap, and synth-pop.
+                          Exo releases and performs music in Korean, Mandarin,
+                          and Japanese. The group placed in the top five as the
+                          most influential celebrity on the Forbes Korea Power
+                          Celebrity list every year from 2014 to 2018, and has
+                          been dubbed "the world's biggest boy band" and "kings
+                          of K-pop" by the media. The group debuted with 12
+                          members divided into two subgroups: EXO-K (Suho,
+                          Baekhyun, Chanyeol, D.O., Kai, and Sehun) and EXO-M
+                          (Xiumin, Lay, Chen, and former members such as Kris,
+                          Luhan, and Tao). EXO-K and EXO-M performed music in
+                          Korean and Chinese, respectively, until 2014. EXO has
+                          been one group since then, continuing to release and
+                          perform music in multiple languages. After the
+                          departure of Kris, Luhan, and Tao amid lawsuits in
+                          2014 and 2015, the group has remained with nine
+                          members. Since 2016, Chen, Baekhyun, and Xiumin have
+                          also released music and performed as a sub-unit called
+                          Exo-CBX. All EXO members also have solo careers in
+                          fields such as music, film, and television.
+                        </p>
+                        <p class="pe-2 text-about">
+                          EXO's first album XOXO (2013), which produced the
+                          breakthrough hit "Growl", was a critical and
+                          commercial success. The song sold over one million
+                          copies, making EXO the best-selling Korean artist in
+                          12 years. Subsequent albums and EPs also received high
+                          sales, with all studio albums selling over one million
+                          copies each. Studio albums XOXO (2013), Exodus (2015)
+                          and Ex'Act (2016),' along with EXO's third EP Overdose
+                          (2014), won EXO several awards including four
+                          consecutive wins each of Disc Daesang at the Golden
+                          Disc Awards, Album of the Year at the Mnet Asian Music
+                          Awards and Daesang award at the Seoul Music Awards.
+                          Their fourth album The War (2017) became their
+                          best-selling album after its release, selling over 1.6
+                          million copies in South Korea and winning a second
+                          consecutive Artist of the Year award at the Melon
+                          Music Awards, as well as a record fifth consecutive
+                          Album of the Year award at the Mnet Asian Music
+                          Awards. EXO's fifth album Don't Mess Up My Tempo
+                          (2018) was their highest-placed album on the US
+                          Billboard 200, debuting at number 23. It was also
+                          their best-selling album with over 1.9 million copies
+                          in South Korea.
+                        </p>
+                        <p class="pe-2 text-about">
+                          Since EXO's 2014 headline tour, the group has
+                          performed at over 100 concerts in four tours and has
+                          participated in several joint tours. EXO is also known
+                          for its work outside of music, which includes
+                          sponsorship deals with brands such as Nature Republic
+                          and Samsung, and charitable acts such as Smile For U,
+                          a joint project of SM Entertainment and UNICEF that
+                          began in 2015, in which EXO continues to participate.
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-5 col-sm-6 pb-3">
+            <div class="card card-about" style="width: 20rem">
+              <img src="assets/images/exo-2.jpg" width="100%" />
+              <div class="card-body">
+                <p class="card-text pe-2 text-about">
+                  <b>2006-2012</b>: Formations and debuts
+                  <br />
+                  <b>2013-2014</b>: Commercial success, first headline tour, and
+                  Kris and Luhan lawsuits <br /><b>2015</b>: Critical acclaim,
+                  Tao lawsuit and Japanese debut <br /><b>2016-2017</b>: Solo
+                  ventures and global success <br /><b>2018-present</b>: Winter
+                  Olympics and international recognition
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-primary btn-about"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal-history"
+                >
+                  History
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="exampleModal-history"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div
+                    class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-dialog modal-xl"
+                  >
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">
+                          HISTORY
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <h5 class="pe-2">
+                          <b>2006-2012: Formations and debuts</b>
+                        </h5>
+                        <p class="pe-2 text-about">
+                          EXO-K's leader Suho was the first member to join SM
+                          Entertainment, after a successful audition through the
+                          company's member selection system in 2006. The
+                          following year, Kai, with the confidence of his
+                          father, auditioned for the SM Youth Best Contest; he
+                          won and got a contract. Chanyeol, who came second in
+                          the Smart Model Contest, and Sehun, who auditioned
+                          four times in two years, were the next members to
+                          enter training in 2008. In 2010, D.O. of Exo-K sang at
+                          his audition and was eventually offered a contract.
+                          The last member of Exo-K who went through training was
+                          Baekhyun, who joined in 2011 through SM
+                          Entertainment's selection system and trained for about
+                          a year before debuting. In Exo-M, Kris auditioned in
+                          2008 at an SM Entertainment global audition in Canada,
+                          before moving to South Korea for training. In the same
+                          year, Lay auditioned in Changsha, China, and then
+                          moved to South Korea, and Xiumin auditioned with his
+                          friend and won second place. In 2010, Luhan was
+                          discovered by a representative from SM Entertainment
+                          in Seoul and passed his audition, and Tao was
+                          discovered at a talent show. The last member to join
+                          Exo-M was Chen, who joined the member selection system
+                          in 2011.
+                        </p>
+                        <p class="pe-2 text-about">
+                          Speaking at a business seminar at Stanford University
+                          in May 2011, SM Entertainment founder Lee Soo-man
+                          shared a strategy to debut a new boy band that would
+                          be divided into two sub-groups, promoting the same
+                          music simultaneously in South Korea and China by
+                          performing songs in Korean and Mandarin. After several
+                          member changes, in December 2011, the group was
+                          finally named as Exo, after the word "exoplanet". They
+                          are divided into two sub-groups: Exo-K for South Korea
+                          and Exo-M for China. The group's first television
+                          appearance was on the annual SBS Gayo Daejeon show on
+                          29 December 2011.
+                        </p>
+                        <p class="pe-2 text-about">
+                          Exo-K and Exo-M debuted with the single "Mama" on 8
+                          April 2012, followed by the Mama EP on 9 April. The
+                          two sub-groups promoted the album separately; Exo-K
+                          performed on South Korean music programme The Music
+                          Trend and Exo-M performed at the Top Chinese Music
+                          Awards in Shenzhen on the same day. The Korean version
+                          of the EP was number one on South Korea's Gaon Album
+                          Chart and number eight on the Billboard World Albums
+                          Chart, and the Chinese version was number two on
+                          China's Sina Album Chart and number one on various
+                          Chinese online apps. After the debut, Exo released two
+                          singles, titled "What Is Love" and "History", which
+                          came in at number 88 and number 68 respectively on the
+                          Gaon Digital Chart and at number six on the Sina Music
+                          Chart. Exo was awarded Best New Asian Group at the
+                          2012 Mnet Asian Music Awards and the Newcomer Award at
+                          the Golden Disc Awards.
+                        </p>
+                        <h5 class="pe-2 text-about">
+                          <b
+                            >2013-2014: Commercial success, first headline tour,
+                            and Kris and Luhan lawsuits</b
+                          >
+                        </h5>
+                        <p class="pe-2 text-about">
+                          Their first studio album, XOXO, was released on 3 June
+                          2013, in two versions: one Korean and one in Mandarin.
+                          Unlike the Mama EP, for which Exo-K and Exo-M had
+                          separate promotions, XOXO was promoted together,
+                          mostly in South Korea. Exo recorded the lead single of
+                          the album, "Wolf" together, but the other songs of the
+                          album were recorded separately. A new version of the
+                          album, titled Growl, was released on 5 August 2013,
+                          with three additional songs. The new single titled
+                          "Growl" was at number three on the Billboard K-Pop Hot
+                          100 and at number two on the Gaon Digital Chart. All
+                          versions of XOXO collectively sold over one million
+                          copies, making Exo the first South Korean artist to
+                          achieve this milestone in 12 years. In December that
+                          year, Exo released a second EP, Miracles in December,
+                          as a winter special album that produced a single
+                          titled the same as the album title. Following the
+                          release, the group promoted the album through their
+                          first reality show, Exo's Showtime, which premiered on
+                          28 November 2013 on MBC's Every 1 cable channel.
+                          Following their 2013 release, Exo won Song of the Year
+                          at the Melon Music Awards for "Growl", Disc Daesang at
+                          the Golden Disc Awards and Album of the Year at the
+                          Mnet Asian Music Awards[41] for XOXO, and Daesang at
+                          the Seoul Music Awards. In addition, Exo-M received
+                          the Most Popular Group Award at the Top Chinese Music
+                          Awards 2013.
+                        </p>
+                        <p class="pe-2 text-about">
+                          Exo's third EP, Overdose, was released on 7 May 2014.
+                          Originally scheduled for release on 21 April, the
+                          album was delayed due to the Sewol Ferry Accident on
+                          16 April. Overdose was promoted similarly to Mama,
+                          with Exo-K in South Korea and Exo-M promoting it
+                          mostly in China. The album passed 660,000 pre-orders,
+                          making it the most pre-ordered Korean EP in history.
+                          Its Korean edition also came in at number two on the
+                          Billboard World Albums Chart, and at number 129 on the
+                          Billboard 200, making Exo the highest-placed male
+                          Korean group on these album charts at the time.
+                          Overdose became the best-selling song of 2014 in South
+                          Korea, and became the first EP to top the annual
+                          charts and win the Album of the Year Award at the Mnet
+                          Asian Music Awards. On 22 December, Exo released their
+                          first live album, Exology Chapter 1: The Lost Planet.
+                          The album single, "December, 2014 (The Winter's
+                          Tale)", peaked at number one on the Gaon Digital
+                          Chart, making it Exo's first number one single. At the
+                          end of 2014, Exo became the best-selling K-pop artist
+                          in Japan that year.
+                        </p>
+                        <p class="pe-2 text-about">
+                          On 15 May 2014, SM Entertainment confirmed that Kris
+                          had filed a lawsuit to terminate his contract. On 24
+                          May, the group kicked off their first headline tour,
+                          Exo from Exoplanet #1 - The Lost Planet, at the
+                          Olympic Gymnastics Arena. Tickets for this concert
+                          were sold in 1.47 seconds, breaking the record as the
+                          fastest concert sale by a Korean artist. On 10
+                          October, Luhan also filed a lawsuit against SM
+                          Entertainment to terminate his contract.
+                        </p>
+                        <h5 class="pe-2">
+                          <b
+                            >2015: Critical acclaim, Tao lawsuit and Japanese
+                            debut
+                          </b>
+                        </h5>
+                        <p class="pe-2 text-about">
+                          On 7 March 2015, Exo kicked off their second world
+                          tour, Exo Planet 2 - The Exo'luxion|Exoplanet 2 - The
+                          Exo'luxion, with 70,000 spectators over five nights at
+                          the Olympic Gymnastics Arena in Seoul. The group
+                          released its second studio album, Exodus on 30 March
+                          2015, in Korean and Chinese versions. Domestic
+                          pre-orders for the album surpassed 500,000 copies in
+                          less than 24 hours, breaking a new record for
+                          pre-orders. The lead single, "Call Me Baby" was
+                          released earlier than scheduled, on 27 March, as a
+                          version of the song had leaked online. The music video
+                          was released four days later; the Korean version went
+                          on to become the most watched K-pop music video in the
+                          first six months of 2015. The album spent four
+                          consecutive weeks at number one on the Gaon Album
+                          Chart and sold over one million copies, making it
+                          Exo's second album to do so, after XOXO. Exodus won
+                          Album of the Year at the 2015 Mnet Asian Music Awards,
+                          becoming Exo's third consecutive win. In April 2015,
+                          Exodus was at number 95 on the US Billboard 200,
+                          making the group the highest-ranked Korean artist on
+                          this album chart at that time. Exo also charted on the
+                          Billboard Canadian Hot 100 at number 98, making them
+                          the first K-pop group and second Korean artist to
+                          chart on this chart.
+                        </p>
+                        <p class="pe-2 text-about">
+                          Tao was absent during the promotion of Exodus due to
+                          injury and, on 24 August, became the third member to
+                          file a lawsuit against SM Entertainment to terminate
+                          his contract. Exo released a new version of Exodus,
+                          titled Love Me Right, on 3 June 2015. This edition
+                          added four new songs, including a single titled "Love
+                          Me Right". Due to Tao's absence, the group promoted
+                          the song with nine members. In October that year, Exo
+                          became the first artist to hold a dome concert in
+                          South Korea; it was called Exo - Love Concert in Dome,
+                          and took place at the Gocheok Sky Dome in Seoul.
+                        </p>
+                        <p class="pe-2 text-about">
+                          On 4 November 2015, Exo released their Japanese debut
+                          single, Love Me Right ~romantic universe~, which
+                          contained the Japanese version of the title track
+                          "Love Me Right" and the original Japanese song "Drop
+                          That". On the day of release, the album sold 147,000
+                          copies and topped the Oricon album chart, becoming the
+                          best-selling debut single of all time in Japan by a
+                          Korean artist. Five days later, Exo released a special
+                          single titled "Lightsaber" to promote the film Star
+                          Wars: The Force Awakens upon its release in South
+                          Korea, as part of a collaboration between SM
+                          Entertainment and Walt Disney. On 10 December, Exo
+                          released its second winter special edition and fourth
+                          EP, Sing for You, which produced singles such as "Sing
+                          for You" and "Unfair". The album sold 267,900 copies
+                          in its first week, breaking the record for the highest
+                          first-week sales by a Korean artist. "Unfair" also
+                          became the first K-pop song to be included on Apple
+                          Music's "Best of the Week" playlist, and Exo became
+                          the first Korean artist to be featured on the
+                          platform's homepage. A portion of the profits from the
+                          album was donated to UNICEF's Smile For U campaign, to
+                          support music education for children in Asia. In
+                          December 2015, South Korea's entertainment industry
+                          leader placed Exo at number seven in its top ten as
+                          cultural leaders of 2015, the highest ranking held by
+                          a K-pop artist.
+                        </p>
+                        <h5 class="pe-2">
+                          <b>2016-2017: Solo ventures and global success </b>
+                        </h5>
+                        <p class="pe-2 text-about">
+                          Exo Ex'Act' s third studio album and its singles,
+                          "Lucky One" and "Monster", were released on 9 June
+                          2016, in Korean and Chinese versions. Domestic
+                          pre-orders for the album surpassed 660,000 copies,
+                          making it the K-pop album with the most pre-orders at
+                          that time. The album broke the record for the highest
+                          first-week sales by a Korean language album,
+                          previously held by their own fourth EP, Sing For You.
+                          "Monster" became Exo's first number one song on the
+                          Billboard World Digital Songs chart, and "Lucky One"
+                          debuted at number one. On 18 August 2016, a new
+                          edition of the album, titled Lotto, was released; it
+                          added four new songs, including a single titled the
+                          same as the album title. "Lotto" became Exo's second
+                          number one song on the Billboard World Digital Songs
+                          chart, and came in at number two on the Gaon Digital
+                          Chart. The new editions of the Korean and Chinese
+                          versions were number one and two on the Gaon Album
+                          Chart, respectively. Less than two months from its
+                          official release, Ex'Act had sold 1.17 million copies,
+                          becoming Exo's third album to sell over one million
+                          copies, earning them the title of "three million
+                          seller" from the media.
+                        </p>
+                        <p class="pe-2 text-about">
+                          On 21 July, Kris and Luhan officially left Exo as
+                          their contract dispute with SM Entertainment was
+                          resolved. On 22 July, Exo held their third headline
+                          tour, "Exoplanet 3 - The Exo'rdium", with a record six
+                          consecutive concerts at the Olympic Gymnastics Arena.
+                          On 28 May 2017, the tour ended with the second of two
+                          consecutive concerts at Seoul Olympic Stadium, the
+                          largest stadium in South Korea, with an estimated
+                          maximum capacity of 100,000. Tickets for the first
+                          date went on sale on 12 April and sold out in less
+                          than 20 minutes. In June, Lay announced that he would
+                          not take part in the group's next album, choosing
+                          instead to focus on his acting career. Since then, he
+                          has been absent from albums and public appearances
+                          with Exo. On 7 December, Exo released their second
+                          Japanese single, "Coming Over". Selling over 158,000
+                          copies, the single peaked at number two on the Oricon
+                          weekly chart and became their second Japanese single
+                          to be certified Platinum by the Recording Industry
+                          Association of Japan. Exo's third winter release and
+                          fifth EP titled For Life was released on 19 December.
+                          They did not publicly promote the album, which sold
+                          over 442,000 copies in less than two weeks.
+                        </p>
+                        <p class="pe-2 text-about">
+                          Also in 2016, the group members spent time developing
+                          their solo careers. On 7 January, Baekhyun released
+                          "Dream", a collaboration with South Korean singer
+                          Suzy. The single became popular, and won Best
+                          Collaboration at the 18th Mnet Asian Music Awards
+                          among other awards. On 31 October, Chen, Baekhyun, and
+                          Xiumin debuted as the first sub-unit of the group,
+                          Exo-CBX, which is a combination of the initials of
+                          each member's stage name. As of 2018, they have
+                          released two EPs in Korean and two EPs in Japanese. On
+                          28 October, Lay released the first of his two solo EPs
+                          in Chinese. In 2016 he also acted in The Mystic Nine,
+                          a television show in China that attracted over 12
+                          billion views online. All members of the group also
+                          pursue solo activities in various industries,
+                          including music, film, television, and theatre.
+                        </p>
+                        <p class="pe-2 text-about">
+                          Exo 's fourth studio album The War was released on 18
+                          July 2017. The album received 807,235 pre-orders,
+                          surpassing their own record of 660,000 for Ex'Act.[95
+                          ] Lead single "Ko Ko Bop" debuted at number one on the
+                          Melon Digital Chart, making Exo the first K-pop group
+                          to enter number one after chart changes were
+                          implemented on 27 February 2017. Upon release, the
+                          album recorded the highest first-week sales of any
+                          K-pop album. The album debuted at number 87 on the
+                          Billboard 200, number one on the Billboard World
+                          Albums chart, and other album charts around the
+                          world-a first for Exo. On 29 August, the 2018 edition
+                          of Guinness World Records named Exo the "Most Daesang"
+                          (grand prize) award at the Mnet Asian Music Awards. On
+                          5 September, the group released a new edition of The
+                          War, titled The War: The Power of Music. The album
+                          added three new songs, including the single "Power."
+                          On 14 September, "Power" recorded an all-time high
+                          score on M Countdown with 11,000 points, which made
+                          Exo the first artist to achieve a perfect score after
+                          changes to the show's calculation system were
+                          implemented in June 2015. This win also marked the
+                          group's 100th win on a music show."
+                        </p>
+                        <p class="pe-2 text-about">
+                          On 19 October, Exo announced their third world tour,
+                          "Exoplanet #4 - The EℓyXiOn", which began with three
+                          consecutive nights at the Gocheok Sky Dome in Seoul,
+                          starting on 24 November. As of 30 November, Korean
+                          sales of The War reportedly reached nearly 1.6 million
+                          copies, making it Exo's best-selling album at the time
+                          and earning them the title of "four million seller"
+                          from the media. In early December, Exo announced their
+                          fourth winter special release and sixth EP, Universe.
+                          The EP was originally set to be released on 21
+                          December, but was delayed until 26 December due to the
+                          death of fellow labelmate Jonghyun.
+                        </p>
+                        <h5 class="pe-2">
+                          <b
+                            >2018-present: Winter Olympics and international
+                            recognition</b
+                          >
+                        </h5>
+                        <p class="pe-2 text-about">
+                          On 16 January 2018, "Power" became the first K-pop
+                          song to be played at The Dubai Fountain at Burj
+                          Khalifa Lake, Dubai. All seven members travelled to
+                          Dubai to see the first playback. The initial screening
+                          of the song was extended from January to March. The
+                          song was also played again from September to November
+                          of the same year. On 31 January, Exo released their
+                          first Japanese studio album titled Countdown. The
+                          album debuted at number one on Oricon's weekly chart,
+                          selling around 89,000 copies. This achievement made
+                          Exo the first non-Japanese music group to have both a
+                          single and a debut album at number one on the Oricon
+                          weekly chart. Ten days after its release, on 9
+                          February, Countdown was certified Gold by the
+                          Recording Industry Association of Japan.
+                        </p>
+                        <p class="pe-2 text-about">
+                          In early February, it was announced that Exo would be
+                          performing at the closing ceremony of the 2018 Winter
+                          Olympics in Pyeongchang on 25 February, as
+                          representatives of K-pop along with CL. Following this
+                          announcement, Baekhyun sang the national anthem at the
+                          opening ceremony of the International Olympic
+                          Committee's general assembly on 5 February, and Exo
+                          performed at the official D-100 Concert in late 2017,
+                          which marked 100 days until the start of the Winter
+                          Olympics. Their performance attracted global media
+                          attention and praise. In March 2018, the Korean Mint
+                          Corporation announced plans to create an official
+                          commemorative medal for Exo, awarded to the group for
+                          their contributions to spreading Korean culture
+                          globally. Nine medals, each commemorating one of the
+                          group's members, were revealed on 18 April, at a
+                          ceremony in Seoul.
+                        </p>
+                        <p class="pe-2 text-about">
+                          Exo's fifth studio album, Don't Mess Up My Tempo, was
+                          announced in early October with a release date of 2
+                          November 2018. It was also revealed Don't Mess Up My
+                          Tempo will feature all nine members of Exo- the
+                          group's first album released since Lotto in 2016. The
+                          album received 1,104,617 pre-orders, surpassing their
+                          previous record. The album gained success, selling
+                          1,179,997 copies as of 30 November, making Exo a "five
+                          million seller" of albums in the media. With the
+                          release of Don't Mess Up My Tempo, Exo became the
+                          first artist to pass 10 million total album sales in
+                          South Korea. The album debuted at number 23 on the
+                          Billboard 200 with 23,000 album equivalent sales and
+                          number one on Billboard's Independent Albums and World
+                          Albums charts. It is Exo's highest-placed album on the
+                          Billboard 200 and their fourth number-one album on the
+                          World Albums chart. Love Shot was released on 13
+                          December, as a new version of Don't Mess Up My Tempo.
+                          The lead single, also titled "Love Shot", became Exo's
+                          third number-one single on the Billboard World Digital
+                          Songs chart and stayed for three consecutive weeks.
+                          Don't Mess Up My Tempo sold 1,951,879 copies in South
+                          Korea in 2018 and became Exo's best-selling album.
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-5 col-sm-6 pb-3">
+            <div class="card card-about" style="width: 20rem">
+              <img src="assets/images/exo-awards.jpg" width="100%" />
+              <div class="card-body">
+                <p class="card-text text-about">
+                  Exo has won several awards in South Korea and internationally.
+                  On 14 June 2013, the group got their first music show win,
+                  with their single "Wolf" at Music Bank Korea. Exo holds the
+                  record for the most music video wins for a single single, with
+                  18 wins for "Call Me Baby", released in 2015.
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-primary btn-about"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal-awards"
+                >
+                  Awards and nominees
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="exampleModal-awards"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div
+                    class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-dialog modal-xl"
+                  >
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">
+                          Awards and nominees
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        
+                        <p class="pe-2 text-about">
+                          Exo has won several awards in South Korea and
+                          internationally. On 14 June 2013, the group got their
+                          first music show win, with their single "Wolf" at
+                          Music Bank Korea. Music programmes are weekly
+                          television shows in South Korea and China that honour
+                          artists in the country based on digital chart
+                          performance, album sales and social media popularity.
+                          Exo holds the record for the most music video wins for
+                          a single, with 18 wins for "Call Me Baby", released in
+                          2015. Exo has won over 100 music programme awards,
+                          becoming only the second artist to do so since fellow
+                          labelmates Girls' Generation.
+                        </p>
+                        <p class="pe-2 text-about">
+                          Exo has also received 23 Daesang awards, also known as
+                          grand prize awards, from year-end award shows. This
+                          includes six Daesang awards from the Mnet Asian Music
+                          Awards, which were entered into the 2018 edition of
+                          the book by Guinness World Records as "Most Daesang"
+                          (grand prize) awards won at the Mnet Asian Music
+                          Awards.
+                        </p>
+                        <p class="pe-2 text-about">
+                          On 3 November 2017, Exo received a Prime Minister's
+                          Commendation at the Korean Popular Culture and Arts
+                          Awards, an award given in recognition of public
+                          service and/or excellence in a particular field. Upon
+                          receiving this award, Suho said: "We have received a
+                          great award along with brilliant people...It is a
+                          great honour. We will be entertainers who promote not
+                          only K-pop, but also Korea."
+                        </p>
+                        <a
+                          href="https://p2k.stekom.ac.id/ensiklopedia/Daftar_penghargaan_dan_nominasi_yang_diterima_oleh_Exo"
+                          >List of awards and nominations received by Exo</a
+                        >
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end about section -->
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+      <ul class="social-icon">
+        <li class="social-icon__item">
+          <a
+            class="social-icon__link"
+            href="https://www.instagram.com/weareone.exo/"
+            target="_blank"
+          >
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+        <li class="social-icon__item">
+          <a
+            class="social-icon__link"
+            href="https://www.youtube.com/c/weareoneEXO"
+            target="_blank"
+          >
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a>
+        </li>
+        <li class="social-icon__item">
+          <a
+            class="social-icon__link"
+            href="https://web.facebook.com/weareoneEXO?_rdc=1&_rdr"
+            target="_blank"
+          >
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+        <li class="social-icon__item">
+          <a
+            class="social-icon__link"
+            href="https://twitter.com/weareoneEXO"
+            target="_blank"
+          >
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+        <li class="social-icon__item">
+          <a
+            class="social-icon__link"
+            href="https://www.tiktok.com/@weareone.exo_official"
+            target="_blank"
+          >
+            <ion-icon name="logo-tiktok"></ion-icon>
+          </a>
+        </li>
+      </ul>
+      <p>&copy;2024 Oryza | All Rights Reserved</p>
+    </footer>
+    <!-- end footer -->
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
