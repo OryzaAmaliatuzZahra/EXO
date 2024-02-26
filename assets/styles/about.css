@@ -63,7 +63,6 @@ body {
   padding-left: 80px;
   margin-bottom: 9rem;
 }
- 
 
 @media (max-width: 370px) {
   .about {
@@ -72,40 +71,52 @@ body {
   .card-about {
     width: 10rem;
   }
+  .font-exo {
+    padding-left: 20px;
+  }
 }
 
 @media (max-width: 470px) {
   .about {
     padding-left: 20px;
   }
+  .font-exo {
+    padding: 20px;
+  }
 }
 
-
 @media (min-width: 470px) and (max-width: 576px) {
-
-
+  .about {
+    padding-left: 22px;
+  }
+  .font-exo {
+    padding-left: 20px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 722px) {
-
+  .about {
+    padding-left: 30px;
+  }
 }
 
 @media (min-width: 722px) and (max-width: 768px) {
- 
+  .about {
+    padding-left: 40px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 900px) {
-
+  .about {
+    padding-left: 60px;
+  }
 }
 
 @media (min-width: 900px) {
-
- 
-
-
-
+  .about {
+    padding-left: 60px;
+  }
 }
-
 
 .footer {
   position: relative;
