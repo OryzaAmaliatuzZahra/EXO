@@ -67,13 +67,19 @@ body {
 
 @media (max-width: 370px) {
   .about {
-    
+    padding-left: 10px;
+  }
+  .card-about {
+    width: 10rem;
   }
 }
 
 @media (max-width: 470px) {
-
+  .about {
+    padding-left: 20px;
+  }
 }
+
 
 @media (min-width: 470px) and (max-width: 576px) {
 
