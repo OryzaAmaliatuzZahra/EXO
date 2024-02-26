@@ -56,16 +56,6 @@ body {
 
 .text-about {
   text-align: justify;
-  /* padding-left: 60px; */
-  /* padding-right: 35px; */
-}
-
-/* .row-jumbotron {
-    padding-left: 60px;
-  } */
-
-.our-service {
-  padding-top: 100px;
 }
 
 .about {
@@ -73,357 +63,43 @@ body {
   padding-left: 80px;
   margin-bottom: 9rem;
 }
-
-.title-about {
-  padding-top: 150px;
-}
-
-.testimonial-header {
-  padding-top: 100px;
-}
-
-.faq {
-  padding-left: 5px;
-}
+ 
 
 @media (max-width: 370px) {
-  .row-jumbotron {
-    padding-left: 0px;
-  }
   .about {
-    padding-left: 50px;
-  }
-
-  .title-about {
-    text-align: center;
-  }
-
-  .faq {
-    padding-left: 0px;
+    
   }
 }
 
 @media (max-width: 470px) {
-  .card-carousel {
-    background: #f1f3ff;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 8px;
-    padding: 50px;
-  }
 
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    height: 100px;
-    width: 100px;
-    outline: black;
-    background-image: none;
-  }
-
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    height: 100px;
-    width: 100px;
-    outline: black;
-    background-image: none;
-  }
-
-  .carousel-control-next {
-    right: 10px !important;
-  }
-
-  .carousel-control-prev {
-    left: 10px !important;
-  }
-
-  .carousel-control-next-icon:after {
-    content: ">";
-    font-size: 55px;
-    color: black;
-  }
-
-  .carousel-control-prev-icon:after {
-    content: "<";
-    font-size: 55px;
-    color: black;
-  }
-
-  .img1 {
-    padding-left: 20px;
-    padding-top: 90px;
-  }
-
-  .img2 {
-    padding-left: 20px;
-    padding-top: 90px;
-  }
 }
 
 @media (min-width: 470px) and (max-width: 576px) {
-  .card-carousel {
-    background: #f1f3ff;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 8px;
-    padding: 50px;
-  }
 
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    height: 100px;
-    width: 100px;
-    outline: black;
-    background-image: none;
-  }
 
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    height: 100px;
-    width: 100px;
-    outline: black;
-    background-image: none;
-  }
-
-  .carousel-control-next {
-    right: 10px !important;
-  }
-
-  .carousel-control-prev {
-    left: 10px !important;
-  }
-
-  .carousel-control-next-icon:after {
-    content: ">";
-    font-size: 55px;
-    color: black;
-  }
-
-  .carousel-control-prev-icon:after {
-    content: "<";
-    font-size: 55px;
-    color: black;
-  }
-
-  .img1 {
-    padding-left: 50px;
-    padding-top: 70px;
-  }
-
-  .img2 {
-    padding-left: 50px;
-    padding-top: 70px;
-  }
 }
 
 @media (min-width: 576px) and (max-width: 722px) {
-  .card-carousel {
-    background: #f1f3ff;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 8px;
-    padding: 50px;
-  }
 
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    height: 100px;
-    width: 100px;
-    outline: black;
-    background-image: none;
-  }
-
-  .carousel-control-next {
-    right: 90px !important;
-  }
-
-  .carousel-control-prev {
-    left: 90px !important;
-  }
-
-  .carousel-control-next-icon:after {
-    content: ">";
-    font-size: 55px;
-    color: black;
-  }
-
-  .carousel-control-prev-icon:after {
-    content: "<";
-    font-size: 55px;
-    color: black;
-  }
-
-  .img1 {
-    padding-left: 120px;
-    padding-top: 50px;
-  }
-
-  .img2 {
-    padding-left: 120px;
-    padding-top: 50px;
-  }
 }
 
 @media (min-width: 722px) and (max-width: 768px) {
-  .card-carousel {
-    background: #f1f3ff;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 8px;
-    padding: 50px;
-  }
-
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    height: 100px;
-    width: 100px;
-    outline: black;
-    background-image: none;
-  }
-
-  .carousel-control-next {
-    right: 100px !important;
-  }
-
-  .carousel-control-prev {
-    left: 100px !important;
-  }
-
-  .carousel-control-next-icon:after {
-    content: ">";
-    font-size: 55px;
-    color: black;
-  }
-
-  .carousel-control-prev-icon:after {
-    content: "<";
-    font-size: 55px;
-    color: black;
-  }
-
-  .img1 {
-    padding-left: 50px;
-    padding-top: 100px;
-  }
-
-  .img2 {
-    padding-left: 50px;
-    padding-top: 100px;
-  }
+ 
 }
 
 @media (min-width: 768px) and (max-width: 900px) {
-  .card-carousel {
-    background: #f1f3ff;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 8px;
-    padding: 50px;
-  }
 
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    height: 100px;
-    width: 100px;
-    outline: black;
-    background-image: none;
-  }
-
-  .carousel-control-next {
-    right: 100px !important;
-  }
-
-  .carousel-control-prev {
-    left: 100px !important;
-  }
-
-  .carousel-control-next-icon:after {
-    content: ">";
-    font-size: 55px;
-    color: black;
-  }
-
-  .carousel-control-prev-icon:after {
-    content: "<";
-    font-size: 55px;
-    color: black;
-  }
-
-  .img1 {
-    padding-left: 50px;
-    padding-top: 80px;
-  }
-
-  .img2 {
-    padding-left: 50px;
-    padding-top: 80px;
-  }
 }
 
 @media (min-width: 900px) {
-  .card-carousel {
-    background: #f1f3ff;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 8px;
-    padding: 50px;
-  }
 
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    height: 100px;
-    width: 100px;
-    outline: black;
-    background-image: none;
-  }
+ 
 
-  .carousel-control-next {
-    right: 150px !important;
-  }
 
-  .carousel-control-prev {
-    left: 150px !important;
-  }
 
-  .carousel-control-next-icon:after {
-    content: ">";
-    font-size: 55px;
-    color: black;
-  }
-
-  .carousel-control-prev-icon:after {
-    content: "<";
-    font-size: 55px;
-    color: black;
-  }
-
-  .img1 {
-    padding-left: 100px;
-    padding-top: 50px;
-  }
-
-  .img2 {
-    padding-left: 100px;
-    padding-top: 50px;
-  }
 }
 
-.row-banner {
-  text-align: center;
-  color: white;
-  background-color: #0d28a6;
-  border-radius: 10px;
-  padding-top: 4rem;
-  height: 300px;
-  color: #ffffff;
-}
-
-.text-banner h2 {
-  font-weight: 700;
-  font-size: 36px;
-}
-
-.text-banner p {
-  font-weight: 300;
-  font-size: 14px;
-}
-
-.faq {
-  padding-top: 150px;
-}
 
 .footer {
   position: relative;
